@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {products} from '../data/mock-data'
-import { IProduct } from '../models/product.model';
+import {products} from '../../../data/mock-data'
+import { IProduct } from '../../../models/product.model';
 
 
 interface ICategory {
