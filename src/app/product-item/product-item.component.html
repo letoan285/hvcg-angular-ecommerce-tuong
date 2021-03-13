@@ -2,7 +2,7 @@
 <div class="card">
     <h3 class="card-title text-center">name: {{item.name}}</h3>
     <div class="card-body">
-        <a href="">
+        <a [routerLink]="['/products', item.id]">
             <img src="{{item.src}}" [ngStyle]="{width: '250px'}" alt="">
         </a>
     </div>

@@ -1,0 +1,12 @@
+.product-detail {
+    &__image{
+        max-width: 500px;
+        &.product-image {
+            max-width: 100%;
+        }
+    }
+}
+
+.product-image {
+    max-width: 100%;
+}

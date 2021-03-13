@@ -10,7 +10,7 @@ export class ProductItemComponent implements OnInit {
   @Input() item: any;
   // title = 'Hello'
 
-  @Output() viewMore = new EventEmitter()
+  @Output() viewMore = new EventEmitter<number>()
   constructor() { }
 
   ngOnInit(): void {
